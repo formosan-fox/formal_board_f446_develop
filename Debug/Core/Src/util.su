@@ -1,0 +1,25 @@
+c:\st\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+../Core/Src/util.cpp:12:6:void debug_print(const char*)	120	static
+../Core/Src/util.cpp:23:6:void debug_print(const char*, const char*)	120	static
+../Core/Src/util.cpp:35:6:void debug_print(const char*, const T&) [with T = bool]	120	static
+../Core/Src/util.cpp:35:6:void debug_print(const char*, const T&) [with T = int]	120	static
+../Core/Src/util.cpp:35:6:void debug_print(const char*, const T&) [with T = unsigned int]	120	static
+../Core/Src/util.cpp:35:6:void debug_print(const char*, const T&) [with T = float]	120	static
+../Core/Src/util.cpp:35:6:void debug_print(const char*, const T&) [with T = double]	120	static
+../Core/Src/util.cpp:35:6:void debug_print(const char*, const T&) [with T = char]	120	static
+../Core/Src/util.cpp:35:6:void debug_print(const char*, const T&) [with T = signed char]	120	static
+../Core/Src/util.cpp:35:6:void debug_print(const char*, const T&) [with T = unsigned char]	120	static
+../Core/Src/util.cpp:35:6:void debug_print(const char*, const T&) [with T = short int]	120	static
+../Core/Src/util.cpp:35:6:void debug_print(const char*, const T&) [with T = short unsigned int]	120	static
+../Core/Src/util.cpp:35:6:void debug_print(const char*, const T&) [with T = long int]	120	static
+../Core/Src/util.cpp:35:6:void debug_print(const char*, const T&) [with T = long unsigned int]	120	static
+../Core/Src/util.cpp:35:6:void debug_print(const char*, const T&) [with T = HAL_StatusTypeDef]	120	static
+../Core/Src/util.cpp:61:6:void debug_print(const char*, const T&, const U&) [with T = int; U = int]	128	static
+../Core/Src/util.cpp:61:6:void debug_print(const char*, const T&, const U&) [with T = float; U = float]	144	static
+../Core/Src/util.cpp:61:6:void debug_print(const char*, const T&, const U&) [with T = unsigned char; U = unsigned char]	128	static
+../Core/Src/util.cpp:61:6:void debug_print(const char*, const T&, const U&) [with T = short unsigned int; U = short unsigned int]	128	static
+../Core/Src/util.cpp:77:6:void debug_print(const char*, const T&, const U&, const V&) [with T = int; U = int; V = int]	192	static
+../Core/Src/util.cpp:77:6:void debug_print(const char*, const T&, const U&, const V&) [with T = float; U = float; V = float]	216	static
+../Core/Src/util.cpp:77:6:void debug_print(const char*, const T&, const U&, const V&) [with T = unsigned char; U = unsigned char; V = unsigned char]	192	static
+../Core/Src/util.cpp:77:6:void debug_print(const char*, const T&, const U&, const V&) [with T = short unsigned int; U = short unsigned int; V = short unsigned int]	192	static
+../Core/Src/util.cpp:92:6:void i2c_addr_scan(I2C_HandleTypeDef*)	160	static

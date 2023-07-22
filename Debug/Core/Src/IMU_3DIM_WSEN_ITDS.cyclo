@@ -1,0 +1,29 @@
+IMU_3DIM_WSEN_ITDS.cpp:10:1:IMU_3DIM_WSEN_ITDS::IMU_3DIM_WSEN_ITDS(I2C_HandleTypeDef*, uint8_t)	2
+IMU_3DIM_WSEN_ITDS.cpp:15:6:bool IMU_3DIM_WSEN_ITDS::init(ITDS_operatingMode_t, ITDS_powerMode_t, ITDS_outputDataRate_t, ITDS_fullScale_t, ITDS_state_t)	9
+IMU_3DIM_WSEN_ITDS.cpp:99:6:bool IMU_3DIM_WSEN_ITDS::isCommunicationReady()	2
+IMU_3DIM_WSEN_ITDS.cpp:113:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::getDeviceID(uint8_t*)	1
+IMU_3DIM_WSEN_ITDS.cpp:117:6:void IMU_3DIM_WSEN_ITDS::exampleLoop()	4
+IMU_3DIM_WSEN_ITDS.cpp:149:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::enableAutoIncrement()	2
+IMU_3DIM_WSEN_ITDS.cpp:162:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::disableAutoIncrement()	2
+IMU_3DIM_WSEN_ITDS.cpp:175:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::isAutoIncrementEnabled(ITDS_state_t*)	2
+IMU_3DIM_WSEN_ITDS.cpp:188:6:bool IMU_3DIM_WSEN_ITDS::isAutoIncrementEnabled()	1
+IMU_3DIM_WSEN_ITDS.cpp:196:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::enableBlockDataUpdate()	2
+IMU_3DIM_WSEN_ITDS.cpp:209:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::disableBlockDataUpdate()	2
+IMU_3DIM_WSEN_ITDS.cpp:222:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::isBlockDataUpdateEnabled(ITDS_state_t*)	2
+IMU_3DIM_WSEN_ITDS.cpp:235:6:bool IMU_3DIM_WSEN_ITDS::isBlockDataUpdateEnabled()	1
+IMU_3DIM_WSEN_ITDS.cpp:243:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::setOperatingMode(ITDS_operatingMode_t)	2
+IMU_3DIM_WSEN_ITDS.cpp:256:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::getOperatingMode(ITDS_operatingMode_t*)	2
+IMU_3DIM_WSEN_ITDS.cpp:269:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::setPowerMode(ITDS_powerMode_t)	2
+IMU_3DIM_WSEN_ITDS.cpp:282:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::getPowerMode(ITDS_powerMode_t*)	2
+IMU_3DIM_WSEN_ITDS.cpp:295:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::setOutputDataRate(ITDS_outputDataRate_t)	2
+IMU_3DIM_WSEN_ITDS.cpp:308:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::getOutputDataRate(ITDS_outputDataRate_t*)	2
+IMU_3DIM_WSEN_ITDS.cpp:321:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::setFullScale(ITDS_fullScale_t)	3
+IMU_3DIM_WSEN_ITDS.cpp:339:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::getFullScale(ITDS_fullScale_t*)	2
+IMU_3DIM_WSEN_ITDS.cpp:353:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::isAccelerationDataReady(ITDS_state_t*)	2
+IMU_3DIM_WSEN_ITDS.cpp:366:6:bool IMU_3DIM_WSEN_ITDS::isAccelerationDataReady()	1
+IMU_3DIM_WSEN_ITDS.cpp:374:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::getAccelerationX(float*)	2
+IMU_3DIM_WSEN_ITDS.cpp:390:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::getAccelerationY(float*)	2
+IMU_3DIM_WSEN_ITDS.cpp:406:19:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::getAccelerationZ(float*)	2
+IMU_3DIM_WSEN_ITDS.cpp:425:14:float IMU_3DIM_WSEN_ITDS::convertAcceleration_float(const int16_t&)	5
+IMU_3DIM_WSEN_ITDS.cpp:437:26:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::ITDS_ReadReg(uint16_t, uint16_t, uint8_t*)	1
+IMU_3DIM_WSEN_ITDS.cpp:443:26:HAL_StatusTypeDef IMU_3DIM_WSEN_ITDS::ITDS_WriteReg(uint16_t, uint16_t, uint8_t*)	1

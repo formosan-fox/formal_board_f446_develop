@@ -1,0 +1,25 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+util.cpp:12:6:void debug_print(const char*)	1
+util.cpp:23:6:void debug_print(const char*, const char*)	1
+util.cpp:35:6:void debug_print(const char*, const T&) [with T = bool]	1
+util.cpp:35:6:void debug_print(const char*, const T&) [with T = int]	1
+util.cpp:35:6:void debug_print(const char*, const T&) [with T = unsigned int]	1
+util.cpp:35:6:void debug_print(const char*, const T&) [with T = float]	1
+util.cpp:35:6:void debug_print(const char*, const T&) [with T = double]	1
+util.cpp:35:6:void debug_print(const char*, const T&) [with T = char]	1
+util.cpp:35:6:void debug_print(const char*, const T&) [with T = signed char]	1
+util.cpp:35:6:void debug_print(const char*, const T&) [with T = unsigned char]	1
+util.cpp:35:6:void debug_print(const char*, const T&) [with T = short int]	1
+util.cpp:35:6:void debug_print(const char*, const T&) [with T = short unsigned int]	1
+util.cpp:35:6:void debug_print(const char*, const T&) [with T = long int]	1
+util.cpp:35:6:void debug_print(const char*, const T&) [with T = long unsigned int]	1
+util.cpp:35:6:void debug_print(const char*, const T&) [with T = HAL_StatusTypeDef]	1
+util.cpp:61:6:void debug_print(const char*, const T&, const U&) [with T = int; U = int]	1
+util.cpp:61:6:void debug_print(const char*, const T&, const U&) [with T = float; U = float]	1
+util.cpp:61:6:void debug_print(const char*, const T&, const U&) [with T = unsigned char; U = unsigned char]	1
+util.cpp:61:6:void debug_print(const char*, const T&, const U&) [with T = short unsigned int; U = short unsigned int]	1
+util.cpp:77:6:void debug_print(const char*, const T&, const U&, const V&) [with T = int; U = int; V = int]	1
+util.cpp:77:6:void debug_print(const char*, const T&, const U&, const V&) [with T = float; U = float; V = float]	1
+util.cpp:77:6:void debug_print(const char*, const T&, const U&, const V&) [with T = unsigned char; U = unsigned char; V = unsigned char]	1
+util.cpp:77:6:void debug_print(const char*, const T&, const U&, const V&) [with T = short unsigned int; U = short unsigned int; V = short unsigned int]	1
+util.cpp:92:6:void i2c_addr_scan(I2C_HandleTypeDef*)	4
